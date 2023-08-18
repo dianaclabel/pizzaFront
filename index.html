@@ -4,16 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Pizza&Front</title>
   </head>
-  <body>
-    <nav>
-      <div>
-        <img src="" alt="pizza" />
-        <h1><span>Pizza</span>&<span>Front</span></h1>
+  <body class="body">
+    <nav class="navegation">
+      <div class="logo">
+        <img src="./assets/VectorPizza.png" alt="pizza" class="img-pizza" />
+        <h1>
+          <span class="word-pizza">Pizza</span>&<span class="word-front"
+            >Front</span
+          >
+        </h1>
       </div>
       <div>
-        <ul>
+        <ul class="nav-items">
           <li>Home</li>
           <li>Ranking</li>
           <li>Promoción</li>
@@ -21,29 +31,45 @@
         </ul>
       </div>
     </nav>
-    <main>
-      <div>
-        <img src="" alt="" />
-        <p>Envio gratis <span>comprando</span>2 pizzas</p>
-      </div>
-      <div>
-        <h2>Podio de pizzas</h2>
-        <div>
-          <h4>Pizzas top 5</h4>
-          <ol>
-            <li>Muzzarella</li>
-            <li>Hawaiana</li>
-            <li>MuzzarellaJ&Morrón</li>
-            <li>Fugazzeta</li>
-            <li>Calabresa</li>
-          </ol>
+    <main class="main">
+      <div class="container">
+        <div class="container-delivery">
+          <div class="container-img-delivery">
+            <img
+              src="./assets/delivery.jpg"
+              alt="foto de delivery"
+              class="img-delivery"
+            />
+          </div>
+          <p class="parag-delivery">
+            Envio gratis <span class="word-white">comprando </span>2 pizzas
+          </p>
         </div>
-        <div>
-          <img src="" alt="pizza&ingredientes " />
+        <div class="container-top">
+          <h2 class="title-top">Podio de pizzas</h2>
+          <div class="container-topic-pizza">
+            <div>
+              <h4 class="subtitle-top">Pizzas top 5</h4>
+              <ol class="topic-pizzas">
+                <li>Muzzarella</li>
+                <li>Hawaiana</li>
+                <li>MuzzarellaJ&Morrón</li>
+                <li>Fugazzeta</li>
+                <li>Calabresa</li>
+              </ol>
+            </div>
+            <div>
+              <img
+                src="./assets/PizzaFalling.jpg"
+                alt="pizza&ingredientes "
+                class="container-img-ingredientes"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div>
         <ul>
           <li>Home</li>
@@ -52,9 +78,13 @@
           <li>Promoción</li>
         </ul>
       </div>
-      <div>
-        <img src="" alt="logo" />
-        <h3><span>Pizza</span>&<span>Front</span></h3>
+      <div class="logo">
+        <img src="./assets/VectorPizza.png" alt="pizza" class="img-pizza" />
+        <h2>
+          <span class="word-pizza">Pizza</span>&<span class="word-front"
+            >Front</span
+          >
+        </h2>
       </div>
     </footer>
   </body>

@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e5e5e5;
+}
+.navegation {
+  display: flex;
+  background-color: #222222;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+.img-pizza {
+  width: 80px;
+  margin-right: 0.5rem;
+}
+
+.word-pizza {
+  color: #39b24a;
+}
+
+.word-front {
+  color: #fc200c;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-items > li {
+  padding-right: 1rem;
+}
+main {
+  margin: auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+.container-img-delivery {
+  height: 442px;
+  width: 620px;
+  background-position: center;
+  object-fit: contain;
+  background-size: contain;
+}
+.container-delivery {
+  position: relative;
+  border-radius: 10px;
+
+  height: 100%;
+  margin-right: 0.5rem;
+}
+
+.img-delivery {
+  width: 100%;
+  border-radius: 10px;
+}
+.parag-delivery {
+  position: absolute;
+  top: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #fc200c;
+  font-weight: 700;
+  font-size: 24px;
+  padding-left: 1rem;
+}
+
+.word-white {
+  color: white;
+}
+.container-top {
+  background-color: white;
+  width: 620px;
+  border-radius: 10px;
+  height: 442px;
+}
+
+.title-top {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #fc200c;
+  margin: 2rem;
+  font-size: 24px;
+}
+.container-topic-pizza {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.subtitle-top {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.topic-pizzas > li {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 1rem;
+}
+
+.container-img-ingredientes {
+  width: 100%;
+}
+.footer {
+  background-color: #222222;
+  margin-top: auto;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.footer ul {
+  margin: 1rem;
+}
+
+.footer ul > li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
