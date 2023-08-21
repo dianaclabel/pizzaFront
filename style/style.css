@@ -29,6 +29,10 @@
   margin-right: 0.5rem;
 }
 
+.icon-menu {
+  display: none;
+}
+
 .word-pizza {
   color: #39b24a;
 }
@@ -131,7 +135,7 @@ main {
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: space-between;
-  padding-right: 1rem;
+  padding-right: 5px;
 }
 
 .footer ul {
@@ -141,4 +145,41 @@ main {
 .footer ul > li {
   list-style: none;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 380px) and (max-width: 980px) {
+  .navegation {
+    width: 100vw;
+    align-items: center;
+  }
+  .nav-options {
+    display: none;
+  }
+  .icon-menu {
+    display: block;
+    margin-right: 5px;
+  }
+  .container {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .container-top {
+    width: 90%;
+    height: 40%;
+  }
+
+  .container-delivery {
+    width: 90%;
+  }
+
+  .container-img-delivery {
+    width: 100%;
+    height: 40%;
+  }
+  .parag-delivery {
+    font-size: 16px;
+  }
+  .footer {
+    flex-direction: row-reverse;
+  }
 }
